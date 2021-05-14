@@ -1,0 +1,27 @@
+{
+  "name": "authtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashishjagrawal/AuthTask.git"
+  },
+  "author": "Ashish jagrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashishjagrawal/AuthTask/issues"
+  },
+  "homepage": "https://github.com/Ashishjagrawal/AuthTask#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.8",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
