@@ -7,13 +7,13 @@ exports.signout =  (req, res) => {
 }
 
 exports.signup = (req, res) => {
-    const user = new User(req.body)
+    const user = new User(req.body);
     user.save( (err, user) => {
         if(err){
             return res.status(400).json({
                 err: "Not able to save user into database"
             })
         }
-        res.json(user)
+        res.json()
     })
 }
