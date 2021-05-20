@@ -6,25 +6,21 @@
   "scripts": {
     "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ashishjagrawal/AuthTask.git"
-  },
-  "author": "Ashish jagrawal",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ashishjagrawal/AuthTask/issues"
-  },
-  "homepage": "https://github.com/Ashishjagrawal/AuthTask#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.5",
+    "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
-    "dotenv": "^9.0.2",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongodb": "^3.6.6",
-    "mongoose": "^5.12.8",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
     "nodemon": "^2.0.7",
-    "uuid": "^8.3.2"
+    "npm": "^6.13.0",
+    "uuid": "^3.3.3"
   }
 }
