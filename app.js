@@ -9,7 +9,7 @@ const cors = require("cors");
 
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user")
-
+//new line
 //DB Connection
 mongoose
   .connect(process.env.DATABASE, {
