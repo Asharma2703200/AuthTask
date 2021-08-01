@@ -12,6 +12,7 @@ const userRoutes = require("./routes/user")
 //new line
 //changes
 //DB Connection
+console.log("Ashish")
 mongoose
   .connect(process.env.DATABASE, {
     useNewUrlParser: true,
